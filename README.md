@@ -5,7 +5,7 @@
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://android.com)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0+-purple.svg)](https://kotlinlang.org)
 [![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-blue.svg)](https://developer.android.com/jetpack/compose)
-[![Release](https://img.shields.io/badge/Release-v1.0-brightgreen.svg)](WBK_Stories_v1.0.apk)
+[![Release](https://img.shields.io/badge/Release-v1.0-brightgreen.svg)](https://github.com/x-hublot-x/WBK-Stories/releases/tag/v1.0)
 
 ---
 
@@ -15,7 +15,8 @@
 
 ### ⬇️ Скачать APK (Версия 1.0)
 Готовый файл для установки на любое Android-устройство (Android 8.0+):
-👉 **[WBK_Stories_v1.0.apk](WBK_Stories_v1.0.apk)**
+- 📦 **[Скачать релиз WBK_Stories_v1.0.apk](https://github.com/x-hublot-x/WBK-Stories/releases/download/v1.0/WBK_Stories_v1.0.apk)** *(GitHub Releases)*
+- 📁 **[Прямой файл из репозитория](WBK_Stories_v1.0.apk)**
 
 ---
 
@@ -32,7 +33,7 @@
 - **Умное управление**: таймлайн с плавной перемоткой, кнопки шага на ±15 секунд, сохранение последней позиции прослушивания.
 
 ### ☁️ Облачный каталог
-- Интеграция с защищенным облачным хранилищем **Supabase**.
+- Интеграция с облачным каталогом **Supabase**.
 - Коллекция из десятков озвученных страшных историй с качественными обложками и описаниями.
 - Фильтры по хронометражу (короткие до 15 минут, длинные от 15 минут) и мгновенный поиск.
 
@@ -57,7 +58,7 @@
    git clone https://github.com/x-hublot-x/WBK-Stories.git
    ```
 2. Откройте директорию `android` в **Android Studio Ladybug** (или новее).
-3. Дождитесь синхронизации Gradle:
+3. Скомпилируйте проект:
    ```bash
    cd android
    ./gradlew assembleDebug
