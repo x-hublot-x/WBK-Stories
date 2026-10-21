@@ -1,0 +1,31 @@
+﻿# Security: Backend scripts with Supabase service_role keys & raw audio downloads
+backend/
+downloads/
+*.env
+*.pem
+*.key
+
+# Android build outputs & dependencies caches
+.gradle/
+android/.gradle/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+android/.kotlin/
+
+# IDE configurations
+.idea/
+android/.idea/
+*.iml
+android/app/*.iml
+.DS_Store
+Thumbs.db
+
+# Android SDK configuration
+local.properties
+android/local.properties
+
+# Logs & temp
+*.log
+*.tmp
